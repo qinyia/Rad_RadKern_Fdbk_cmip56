@@ -2,7 +2,7 @@
 
 ## Description
 
-This repo is used to save feedbacks derived from (1) traditional Hansen or Gregory method (Gregory et al., 2004), (2) radiative kernel method (i.e., Soden et al., 2004). These data ared used in Qin et al. (2020).
+This repo is used to save feedbacks derived from (1) traditional Hansen or Gregory method (Gregory et al., 2004) -- RadFeedback, (2) radiative kernel method (i.e., Soden et al., 2004) -- RadKernFeedback. These data ared used in Qin et al. (2020).
 
 ### Experiments used 
 These feedbacks derived from a series of CMIP experiments:
@@ -40,7 +40,7 @@ read.py can be used to read these data. Overall, the data structure is: [experim
 | 'CMIP6' | only CMIP6 models |
 | 'CMIP56' | CMIP5 and CMIP6 models |
 
-3. feedbacks from <RadFeedback> [W/m2/K]
+3. feedbacks from RadFeedback [W/m2/K]
   
 | Acronyms      | Description |
 | ----------- | ----------- |
@@ -55,7 +55,7 @@ read.py can be used to read these data. Overall, the data structure is: [experim
 | FTOACLR | clear-sky total TOA radiation |
 
 
-3. feedbacks from <RadKernFeedback> [W/m2/K]
+3. feedbacks from RadKernFeedback [W/m2/K]
   
 | Acronyms      | Description |
 | ----------- | ----------- |
