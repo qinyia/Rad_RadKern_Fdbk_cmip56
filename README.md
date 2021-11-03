@@ -5,10 +5,10 @@
 This repo is used to save feedbacks derived from (1) traditional Hansen or Gregory method (Gregory et al., 2004), (2) radiative kernel method (i.e., Soden et al., 2004). These data ared used in Qin et al. (2020).
 
 These feedbacks derived from a series of CMIP experiments:
-piControl and abrupt-4xCO2
-amip and amip-p4K
-amip and amip-future4K
-aquaControl and aqua-p4K
+- piControl and abrupt-4xCO2
+- amip and amip-p4K
+- amip and amip-future4K
+- aquaControl and aqua-p4K
 
 Radiaitve feedbacks are saved in: RadFeedabck_cmip56.json
 Radiative kernel feedbacks are saved in: RadKernFeedback_cmip56.json
@@ -16,6 +16,11 @@ Radiative kernel feedbacks are saved in: RadKernFeedback_cmip56.json
 read.py can be used to read these data. Overall, the data structure is: [experiment][phase][model and ripf][feedback_var]
 
 - experiments include:
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 '1-150yr_abrupt': use full 150-year piControl and abrupt-4xCO2
 '1-20yr_abrupt': use first 20-year piControl and abrupt-4xCo2
 '21-150yr_abrupt': use last 130-year piControl and abrupt-4xCO2
