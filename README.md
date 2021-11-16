@@ -1,5 +1,7 @@
 # Rad_RadKern_fdbk_cmip56
 
+[![DOI](https://zenodo.org/badge/424397920.svg)](https://zenodo.org/badge/latestdoi/424397920)
+
 ## Description
 
 This repo is used to save feedbacks derived from (1) traditional Hansen or Gregory method (Gregory et al., 2004) -- RadFeedback, (2) radiative kernel method (i.e., Soden et al., 2004) -- RadKernFeedback. These data ared used in Qin et al. (2020).
